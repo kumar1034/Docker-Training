@@ -1,1 +1,1 @@
-# AzureDevops Training
+# Azure Devops Training
