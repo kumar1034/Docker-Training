@@ -1,5 +1,6 @@
 FROM almalinux
-ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.73/bin/embed/apache-tomcat-9.0.73-embed.tar.gz /tmp/
+ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.73/bin/embed/apache-tomcat-9.0.73-embed.tar.gz /tmp/ \
+    apache-tomcat-9.0.73-embed.tar.gz /tmp/
 
 # RUN apt-get update && \
 #    apt-get install -y unzip \
