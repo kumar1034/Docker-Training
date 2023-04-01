@@ -1,4 +1,4 @@
-FROM Almalinux
+### FROM
 
 ###How to build docker files from Image
 
