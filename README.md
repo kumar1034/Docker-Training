@@ -8,6 +8,11 @@ File name should Dockerfile. docker command should run where your Dockerfile exi
 docker build -t [docker-hub-URL]/[your-username]/[image-name]:version .
 ```
 
+**How to run container from image**
+```
+docker run -itd [image-name]:version .
+```
+
 **How to push image to Dockerhub**
 
 ```
