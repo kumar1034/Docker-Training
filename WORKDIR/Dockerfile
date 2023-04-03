@@ -1,4 +1,5 @@
 FROM almalinux
 RUN adduser nginx
 USER nginx
-RUN touch cd/tmp/hello.txt
+RUN cd/tmp/
+RUN touch hello.txt
