@@ -1,3 +1,4 @@
 FROM almalinux
-RUN adduser nginx \
-    touch /tmp/hello.html
+RUN adduser nginx
+USER nginx
+RUN touch /tmp/hello.html
