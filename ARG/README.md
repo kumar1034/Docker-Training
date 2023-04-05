@@ -6,3 +6,5 @@ ARG is used to supply few variables at the time of image creation.
 ### It cannot be used at the time of RUN.
 
 ### Using ENV and ARG for best results
+*Create one env variable and assign the value of ARG to that.
+*Then we can acccess the ARG values through ENV both image and container.
