@@ -12,6 +12,5 @@ Using volumes we can share the data to the containers.
 docker run -d -v nginx_data:/usr/share/nginx/html -p 81:80 nginx
 ```
 
-
 * -v
 **host-path:container-path**
