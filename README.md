@@ -4,6 +4,19 @@ Dockerfile is a declarative way of creating our own images. Docker will give us 
 File name should Dockerfile. docker command should run where your Dockerfile exists.
 
 **How to build image from Dockerfile**
+
+Docker Architecture
+Docker architecture consists of
+
+Docker client which is shell
+Docker daemon
+Docker Registry
+Docker objects
+Images
+Containers
+Docker networking
+Docker storage
+
 ```
 docker build -t [docker-hub-URL]/[your-username]/[image-name]:version .
 ```
