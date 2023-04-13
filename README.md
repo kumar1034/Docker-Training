@@ -18,3 +18,8 @@ docker run -itd [image-name]:version .
 ```
 docker push [docker-hub-URL]/[your-username]/[image-name]:version
 ```
+
+**Docker Architecture**
+
+![docker-architecture](https://user-images.githubusercontent.com/8718083/231742683-b1360068-a38a-466d-be5c-ebd75e601e8f.png)
+
